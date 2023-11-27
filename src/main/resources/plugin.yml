@@ -1,0 +1,12 @@
+main: in.glennjam.PrettyIPInfo.PrettyIPInfo
+name: PrettyIPInfo
+version: 3.0
+api-version: 1.20
+author: TheRealSimShady
+description: Get beautified information for a player's IP using IPInfo.io
+commands:
+    ipinfo:
+        description: Get information for a player's IP.
+        usage: /ipinfo
+        permission: ipinfo.use
+        permission-message: You don't have permission.

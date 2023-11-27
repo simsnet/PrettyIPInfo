@@ -1,0 +1,20 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# IPInfo Configuration
+# 
+# After editing the configuration, restart your server or run /ipinfo reload.
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# 
+# This plugin uses the IPInfo.io (https://ipinfo.io) API to pull IP address information.
+# To generate an API token, create an account at IPInfo.io, then go to https://ipinfo.io/account/token.
+# The free tier grants up to 50,000 lookups monthly + geolocation data.
+# Enter your IPInfo.io API token below.
+# 
+# As of v3.0, this plugin supports saving the player's IP address when joining.
+# When the player is offline, you can supply their username with /ipinfo player <player>.
+# If the username exists below, their saved IP address will be used.
+# Once the player rejoins, their IP address will be updated.
+
+token: 
+save-ip-on-join: true
+ips: 
+    Google: 8.8.8.8
